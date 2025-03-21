@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "./../assets/Images/favi.png";
+import logo from "./../assets/Images/logo.png";
 import {
   HiHome,
   HiMagnifyingGlass,
@@ -40,11 +40,11 @@ const Header = () => {
   ];
 
   return (
-    <div className="flex items-center justify-between px-6 md:px-8 py-2  text-white">
+    <div className="flex items-center justify-between px-6 md:px-8 py-5  text-white">
       <div className="flex items-center gap-6 md:gap-8">
         <img
           src={logo}
-          className="w-[60px] md:w-[100px] ml-[3px] object-contain"
+          className="w-[80px] md:w-[120px] ml-[3px] object-contain"
           alt="App Logo"
         />
 
