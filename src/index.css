@@ -1,0 +1,17 @@
+@import "tailwindcss";
+*{
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background: #000;
+    overflow-x: hidden;
+}
+.hide-scrollbar {
+    scrollbar-width: none; 
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and WebKit-based browsers */
+  }
+  
